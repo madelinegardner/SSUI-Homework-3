@@ -1,20 +1,156 @@
 
-body{
+body {
+  text-align: left;
+  width: 99%;
+  /*margin: auto;*/
+  background-image: url("file://C:/Users/madel/OneDrive/CMU/2017 Fall/SSUI/Assignment 3/SSUI-Homework-3/resources/images/brownDots.jpg");
+}
+
+.topnav {
+    width: 99%;
+    padding-bottom: 6%;
+    background-color: rgb(155, 194, 232);
+}
+
+.topnav a {
+    display: block;
+    font-family: 'Ribeye Marrow', serif;
+    color: saddlebrown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+.topnav p {
+    display: inline;
+    font-family: 'Ribeye Marrow', serif;
+    color: saddlebrown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 110%;
+    vertical-align: middle;
+}
+
+.topnav h1 {
+  font-family: 'Ribeye Marrow', serif;
+  font-size: 190%;
+  color: saddlebrown;
+}
+
+.most {
+  text-align: left;
+  margin: auto;
+  background-color: rgb(155, 194, 232);
+  padding-bottom: 7%;
+}
+
+.most h1 {
+  font-family: 'Ribeye Marrow', serif;
   text-align: center;
-  width: 40%;
+  font-size: 200%;
+  color: saddlebrown;
+}
+
+.most p {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 120%;
+  color: saddlebrown;
+  padding: 36px 16px 50px 16px;
+  width: 75%;
   margin: auto;
 }
 
-h1 {
-  font-family: 'Bad Script', cursive;
-  color: orangered;
-}
-
-p {
-  text-align: left;
-  font-family: 'Lato', sans-serif;
+button {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+  background-color: saddlebrown;
+  font-family: 'Ribeye Marrow', serif;
+  font-size: 20px;
 }
 
 .starterImage{
   width: 16em;
+}
+
+.logo {
+  padding-left: 5px;
+  width:67px;
+  height:69px;
+  float:left;
+}
+
+
+.productL {
+  text-align: left;
+}
+
+.productR {
+  text-align: right;
+}
+
+h2 {
+  font-family: 'Ribeye Marrow', serif;
+  font-size: 190%;
+  color: saddlebrown;
+  padding: 70px;
+  display: inline-block;
+}
+
+.productsL {
+  float: right;
+  margin: 0 auto;
+  width: 17%;
+  vertical-align: middle;
+  padding: 32px 32px;
+}
+
+.productsR {
+  float: left;
+  margin: 0 auto;
+  width: 17%;
+  vertical-align: middle;
+  padding: 32px 32px;
+}
+
+.detail {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  background-color: rgb(155, 194, 232);
+  padding-bottom: 7%;
+  width: 99%;
+}
+
+.largerImg {
+  padding: 40px;
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h3 {
+  font-family: 'Ribeye Marrow', serif;
+  font-size: 190%;
+  color: saddlebrown;
+  display: inline-block;
+  float: right;
+  padding-right: 20%;
+}
+
+.detail p {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 120%;
+  color: saddlebrown;
+  padding: 36px 16px 50px 16px;
+  width: 75%;
+  margin: auto;
+  float: right;
+  display: inline;
 }
